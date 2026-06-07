@@ -2,13 +2,15 @@
 
 # ROHAN K. JADHAV
 
-### Equity Derivatives Analyst · Algo Trading Systems · Market Trainer
+### Algo Trading Developer · Data Analyst · Pine Script v5 Specialist
 
-[![NISM VIII](https://img.shields.io/badge/NISM--Series--VIII-Equity%20Derivatives-0a6b3b?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTV6TTIgMTdsOSA0LjUgOS00LjVWN0wxMiAxMiAyIDd6Ii8+PC9zdmc+)](https://www.nism.ac.in/)
+[![NISM VIII](https://img.shields.io/badge/NISM--Series--VIII-Equity%20Derivatives-0a6b3b?style=flat-square)](https://www.nism.ac.in/)
 [![NISM VA](https://img.shields.io/badge/NISM--Series--VA-Mutual%20Fund%20Distributor-1a5276?style=flat-square)](https://www.nism.ac.in/)
 [![Python](https://img.shields.io/badge/Python-Trading%20%26%20Analytics-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Rohan-3006)
 [![Pine Script](https://img.shields.io/badge/Pine%20Script-TradingView%20Strategies-2962FF?style=flat-square&logo=tradingview&logoColor=white)](https://www.tradingview.com/)
-[![Location](https://img.shields.io/badge/📍-Ambernath%2C%20Maharashtra-444?style=flat-square)](mailto:rohan.jadhav3006@gmail.com)
+[![NSE](https://img.shields.io/badge/Market-NSE%20%7C%20NIFTY%20%7C%20Options-orange?style=flat-square)](https://www.nseindia.com/)
+
+*Passionate about data analysis, trading strategies, and algo trading on NSE. Building production-grade systems for real-time market analysis.*
 
 </div>
 
@@ -16,92 +18,141 @@
 
 ## About Me
 
-9+ years in Indian equity markets — trading, training, and building analytical systems. I bridge the gap between market knowledge and technical automation: from Pine Script strategies on TradingView to Python-based backtesting, options analytics, and AI-assisted development workflows.
+Technical Analyst and Algo Trading Developer specializing in **NSE options & derivatives**. I build intelligent trading systems that combine **technical analysis, data engineering, and AI automation**.
 
-Currently working as a **Technical Analyst** at My Trading School while developing quantitative tools and training the next generation of derivatives traders.
+My focus: Real-time options chain scoring → AI-driven market analysis → Automated trade execution → Performance tracking.
 
 ```
-Market Understanding  →  Strategy Design  →  System Automation  →  Continuous Refinement
+Market Data  →  OptionsFlow (Score)  →  AI_Base (Analyze)  →  Pine_5 (Execute)  
+   →  EdgeTracker (Track)  →  SQL_Ledger (Persist)
 ```
 
 ---
 
 ## What I Build
 
-### 📊 Trading & Analytics Systems
-- **Options Intelligence** — IV skew analysis, OI shift detection, delta-based strike selection
-- **Pine Script Strategies** — Trend, momentum, VWAP, mean-reversion systems on TradingView
-- **Backtesting Frameworks** — Python-based strategy validation with walk-forward testing
-- **Performance Dashboards** — Trade log automation, equity curve, drawdown analytics
+### 📊 Production Trading Systems
 
-### 🤖 Automation & AI Workflows
-- **Google Sheets Automation** — Market data pipelines, scoring engines, auto-reporting
-- **AI-Assisted Development** — Agentic workflows using Claude for debugging, documentation, and code generation
-- **Alert Systems** — Telegram-based trade signals and market monitoring
+| Project | Stack | Purpose |
+|---------|-------|---------|
+| **[OptionsFlow](https://github.com/Rohan-3006/OptionsFlow)** | Python, pandas | IV/OI/Delta scoring engine for NIFTY options chain |
+| **[AI_Base](https://github.com/Rohan-3006/AI_Base)** | Claude API, Python | Pre-market analysis, trade reviews, strategy debugging |
+| **[Pine_5](https://github.com/Rohan-3006/Pine_5)** | Pine Script v5 | VWAP+EMA, RSI+BB, Supertrend strategies for NSE |
+| **[EdgeTracker](https://github.com/Rohan-3006/EdgeTracker)** | Python, pandas | Trade log analytics (win rate, P&F, drawdown, equity curve) |
+| **[SQL_Ledger](https://github.com/Rohan-3006/SQL_Ledger)** | SQLite, Python | Portfolio P&L, monthly summaries, strategy breakdown |
 
-### 🎓 Training & Content
-- Options & Futures curriculum design
-- Risk management frameworks for retail traders
-- Live market case studies and simulations
+### 🎯 Core Competencies
+
+- **Strike Selection Engine** — IV percentile (0-100), OI buildup direction (support/resistance), Delta proximity scoring
+- **Pine Script v5 Strategies** — Trend (VWAP+EMA), Mean Reversion (RSI+BB), Momentum (Supertrend) with ATR-based risk management
+- **Trade Analytics** — Win rate, profit factor, expectancy, max drawdown, Sharpe ratio, equity curve
+- **AI Workflows** — Claude API for market briefings, trade critiques, Pine Script error debugging
+- **Automation** — Google Sheets pipelines, Telegram alerts, CSV trade log processing
 
 ---
 
-## Core Stack
+## Technical Stack
 
 ```python
-markets   = ["NSE", "BSE", "NIFTY", "BANKNIFTY", "Equity F&O"]
-languages = ["Python", "Pine Script", "Google Apps Script", "SQL"]
-tools     = ["TradingView", "Excel", "Google Sheets", "Jupyter"]
-analytics = ["Technical Analysis", "OI Analysis", "IV/Greeks", "Price Action"]
-workflow  = ["Claude (Agentic AI)", "Git/GitHub", "Telegram API"]
+# Languages
+languages = ["Python 3.10+", "Pine Script v5", "SQL", "Google Apps Script"]
+
+# Data & Analytics
+analytics = [
+    "pandas (data engineering)",
+    "numpy (numerical analysis)",
+    "SQLite (portfolio persistence)"
+]
+
+# Trading & Markets
+markets = {
+    "Primary": ["NSE NIFTY", "BANKNIFTY", "Nifty 50 options"],
+    "Timeframes": ["5-min intraday", "15-min setups", "EOD backtest"],
+    "Instruments": ["Index options (CE/PE)", "Weekly expiry"]
+}
+
+# Brokers & APIs
+brokers = ["Dhan API", "NSE data feeds", "Yahoo Finance (fallback)"]
+
+# Platforms
+platforms = [
+    "TradingView (charting + Pine Script)",
+    "Jupyter (backtesting)",
+    "VS Code (Python development)",
+    "Google Sheets (automation)"
+]
+
+# AI & Automation
+automation = ["Claude API (agentic workflows)", "Telegram Bot API"]
 ```
 
 ---
 
-## Market Focus Areas
+## Metrics I Care About
 
-| Domain | Tools | Focus |
-|--------|-------|-------|
-| Equity Derivatives | TradingView, Python | Options chain, IV skew, OI analysis |
-| Intraday Strategies | Pine Script | VWAP, EMA, price action setups |
-| Portfolio Analytics | Python, Excel | Drawdown, risk-adjusted returns |
-| Algo Strategy Dev | Pine Script v5/v6 | Backtest, walk-forward, optimization |
-| Wealth Management | Excel, Google Sheets | Client portfolio, asset allocation |
-
----
-
-## Certifications
-
-- 🏅 **NISM-Series-VIII** — Equity Derivatives Examination *(Feb 2024)*
-- 🏅 **NISM-Series-VA** — Mutual Fund Distributors Examination *(Mar 2024)*
-- 📜 Diploma in Computer Forensics — Asian School of Cyber Laws *(2009)*
+| Metric | Target | Why |
+|--------|--------|-----|
+| **Win Rate** | >55% | Consistency indicator |
+| **Profit Factor** | >2.0 | Risk/reward ratio |
+| **Expectancy** | >0 | Average ₹ per trade |
+| **Max Drawdown** | <20% | Sustainability test |
+| **Sharpe Ratio** | >1.5 | Risk-adjusted returns |
+| **IV Percentile** | 20-80 | Trade entry conviction |
+| **OI Buildup** | +5-10% | Support/resistance formation |
 
 ---
 
-## Work Experience Timeline
+## Recent Work
 
+### 🚀 Live Projects
+
+1. **Options Intelligence System** (OptionsFlow)
+   - Scores 200+ strikes in real-time using IV/OI/Delta/Liquidity
+   - Flags high-conviction setups (🟢 ≥7.5, 🟡 ≥6.0)
+   - Exports JSON for AI analysis
+
+2. **AI-Assisted Trading Workflows** (AI_Base)
+   - Pre-market briefing: SGX Nifty → Bias + strategy
+   - Options chain read: Top 5 strikes → Range + levels
+   - Trade review: Entry/exit → Objective critique + lessons
+   - Pine Script debug: Error → Root cause + fix
+
+3. **Pine Script Strategy Library** (Pine_5)
+   - 3 battle-tested strategies
+   - ATR-based stops, session filters, volume confirmation
+   - Backtest metrics: Win rate, profit factor, Sharpe ratio
+
+4. **Trade Performance Tracker** (EdgeTracker + SQL_Ledger)
+   - CSV import → Metrics calculation
+   - Monthly summaries, strategy breakdown
+   - Equity curve visualization
+
+---
+
+## Key Stats
+
+- 🎯 **9+ years** in Indian equity markets
+- 📈 **200+ trades** analyzed and tracked (EdgeTracker DB)
+- 🤖 **5 production repos** fully documented
+- 🔧 **4 scoring dimensions** in OptionsFlow (IV, OI, Delta, Liquidity)
+- ⚡ **Real-time** alert system via Telegram
+- 🎓 **NISM-VIII Certified** (Equity Derivatives)
+
+---
+
+## Code Philosophy
+
+```python
+# My approach:
+✅ Clean, minimal code (no unnecessary abstraction)
+✅ Type hints + dataclasses (Python 3.10+)
+✅ f-strings for formatting
+✅ pandas for data work
+✅ SQLite for local persistence
+✅ Error handling (no bare except blocks)
+✅ <100 char line length
+✅ Single responsibility per function
 ```
-2024 – Present  │  Technical Analyst @ My Trading School, Marine Lines
-                │  Pine Script strategies, Google Sheets automation, training content
-                │
-2021 – 2024     │  Stock Market Trainer @ InvestingEdge Learning Academy, Panvel
-                │  Equity & derivatives training, curriculum design, mentoring
-                │
-2016 – 2021     │  Wealth Manager @ Prashik Consultancy, Navi Mumbai
-                │  HNI portfolio management, derivatives advisory, market research
-                │
-2013 – 2016     │  Sr. Practitioner @ Concentrix Pvt. Ltd.
-                │  Team performance, reporting, client operations
-```
-
----
-
-## Current Projects
-
-- 🔧 **Options Intelligence System** — Strike scoring engine using IV + OI + Greeks
-- 📈 **Pine Script Strategy Library** — Multi-condition setups with risk management
-- 📋 **Trading Performance Tracker** — Python dashboard with automated P&L reporting
-- 🗄️ **SQL Portfolio Analytics** — Client exposure, drawdown, and concentration queries
 
 ---
 
@@ -109,16 +160,20 @@ workflow  = ["Claude (Agentic AI)", "Git/GitHub", "Telegram API"]
 
 <div align="center">
 
-📧 [rohan.jadhav3006@gmail.com](mailto:rohan.jadhav3006@gmail.com) &nbsp;|&nbsp;
-📞 +91 79000 15795 &nbsp;|&nbsp;
-📍 Ambernath, Maharashtra
+📧 **[rohan.jadhav3006@gmail.com](mailto:rohan.jadhav3006@gmail.com)**  
+📍 **Ambernath, Maharashtra, India**  
+🔗 **[GitHub](https://github.com/Rohan-3006)** | **[TradingView](https://www.tradingview.com/)**
 
-*Open to roles in: Technical Analysis · Derivatives Advisory · FinTech Product · Trading Systems*
+**Open to:**
+- Technical Analysis roles
+- Derivatives Advisory
+- FinTech Product Development
+- Trading Systems Engineering
 
 </div>
 
 ---
 
 <div align="center">
-<sub>Built with market conviction. Refined by data.</sub>
+<sub>🎯 Building production-grade trading systems. Data-driven. Conviction-tested.</sub>
 </div>
